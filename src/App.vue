@@ -1,17 +1,17 @@
 <template>
-  <h1>星海昔织</h1>
+  <MainContainer />
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
+<script>
+import MainContainer from '@/components/container/MainContainer'
+export default {
   name: 'App',
-})
+  components: {
+    MainContainer,
+  },
+}
 </script>
 
 <style>
-  h1 {
-    color: #2c7ad6;
-  }
+
 </style>
