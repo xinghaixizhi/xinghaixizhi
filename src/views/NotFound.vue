@@ -1,6 +1,6 @@
 <template>
     <div class="not-found">
-        <h1>404 NOT FOUND</h1>
+        <h1 class="color-red">404 NOT FOUND</h1>
     </div>
 </template>
 
@@ -18,5 +18,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
+    .color-red {
+        color: red;
+    }
 </style>
