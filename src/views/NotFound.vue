@@ -21,4 +21,8 @@ export default defineComponent({
     .color-red {
         color: red;
     }
+    .not-found {
+        text-align: center;
+        margin: 100px auto;
+    }
 </style>
