@@ -2,8 +2,8 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import installElementPlus from './plugins/element'
 import router from './router'
-import '../node_modules/normalize.css'
 import store from './store'
+import '../node_modules/normalize.css'
 
 
 const app = createApp(App)

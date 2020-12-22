@@ -1,19 +1,19 @@
 <template>
-  <div class="about">
-    关于我
-  </div>
+    <div class="index">
+        首页更新
+    </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'About',
-  setup() {
-    return {
+    name: 'Index',
+    setup() {
+        return {
 
-    }
-  },
+        }
+    },
 })
 </script>
 
