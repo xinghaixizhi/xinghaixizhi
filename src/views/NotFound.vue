@@ -18,5 +18,8 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
+    .not-found {
+        text-align: center;
+        margin: 100px auto;
+    }
 </style>
