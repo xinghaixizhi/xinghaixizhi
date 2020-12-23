@@ -1,6 +1,6 @@
 <template>
     <div class="index">
-        首页修改
+        首页修改2
     </div>
 </template>
 
