@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     关于我们
-    <h1>ci测试1</h1>
+    <h1>ci测试2</h1>
   </div>
 </template>
 
