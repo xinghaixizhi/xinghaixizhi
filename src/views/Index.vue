@@ -5,6 +5,11 @@
             <h1>Comming soon ···</h1>
         </div>
         <router-link to="/about">about</router-link>
+         <div style="text-align: center">
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode={{beian}}" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                <span style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">陕公网安备{{beian}}号</span>
+            </a>
+        </div>
     </div>
 </template>
 
@@ -21,7 +26,7 @@ export default defineComponent({
             return Promise.resolve('le or qe 2')
         }
         return {
-
+            beian: '${{ secrets.BEIAN }}'
         }
     },
 })
