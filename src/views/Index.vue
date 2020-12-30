@@ -1,6 +1,7 @@
 <template>
     <div class="index">
-        首页修改
+        <h1 style="color: skyblue;">星海昔织</h1>
+        <router-link to="/about">about</router-link>
     </div>
 </template>
 
@@ -10,6 +11,12 @@ import { defineComponent } from 'vue'
 export default defineComponent({
     name: 'Index',
     setup() {
+        async function test(val: number): Promise<string> {
+            if (val > 2) {
+                return Promise.reject('ge 2')
+            }
+            return Promise.resolve('le or qe 2')
+        }
         return {
 
         }
