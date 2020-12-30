@@ -1,6 +1,9 @@
 <template>
     <div class="index">
         <h1 style="color: skyblue;">星海昔织</h1>
+        <div style="text-align: center; height: 500px;line-height:200px;">
+            <h1>Comming soon ···</h1>
+        </div>
         <router-link to="/about">about</router-link>
     </div>
 </template>
