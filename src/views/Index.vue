@@ -18,8 +18,8 @@
             </div>
         </div>
         <div class="footer">
-            <a :href="bei.icp.url">{{bei.icp.title}}</a> | 
-            <a :href="bei.gongan.url">{{bei.gongan.title}}</a>
+            <a :href="bei.icp.url" target="_blank">{{bei.icp.title}}</a> | 
+            <a :href="bei.gongan.url" target="_blank">{{bei.gongan.title}}</a>
         </div>
     </div>
 </template>
@@ -65,7 +65,7 @@ export default defineComponent({
                 }
             }
         } as State)
-        const audioSrc = 'http://cdn.xizhi.tech/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81.mp3'
+        const audioSrc = 'https://cdn.xizhi.tech/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81.mp3'
         const handleAudio = () => {
             if((state.audio as HTMLAudioElement).paused) {
                 (state.audio as HTMLAudioElement).play();
@@ -89,7 +89,7 @@ export default defineComponent({
 <style scoped>
         @font-face {
             font-family: '瘦金简体';
-            src: url('http://cdn.xizhi.tech/%E7%98%A6%E9%87%91%E7%AE%80%E4%BD%93.ttf');
+            src: url('https://cdn.xizhi.tech/%E7%98%A6%E9%87%91%E7%AE%80%E4%BD%93.ttf');
         }
 
         .text-container {
