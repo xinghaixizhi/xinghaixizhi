@@ -60,7 +60,7 @@ export default defineComponent({
                     url: 'https://beian.miit.gov.cn/#/Integrated/index'
                 },
                 gongan: {
-                    title: '陕公网安备 61019002001182号',
+                    title: '陕公网安备 61019002001182 号',
                     url: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61019002001182'
                 }
             }
@@ -87,11 +87,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-        @font-face {
-            font-family: '瘦金简体';
-            src: url('https://cdn.xizhi.tech/%E7%98%A6%E9%87%91%E7%AE%80%E4%BD%93.ttf');
-        }
-
         .text-container {
             font-family: '瘦金简体';
             height: 100vh;
